@@ -14,7 +14,7 @@ First, we need to create a Clock object, passing the hour and minute values:
 Then, we use the methods from AngleCalculator passing the defined Clock:
 
 ```java
-double minorArc = AngleCalculator.calculateMinorArc(Clock);
-double majorArc = AngleCalculator.calculateMajorArc(Clock);
+double minorArc = AngleCalculator.calculateMinorArc(clock);
+double majorArc = AngleCalculator.calculateMajorArc(clock);
 ``` 
 
